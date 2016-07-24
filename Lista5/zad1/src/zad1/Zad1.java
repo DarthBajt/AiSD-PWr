@@ -43,8 +43,7 @@ public class Zad1 {
         System.out.println("\nInsert sort");
         Sort insert = new InsertSort(new IntComparator());
         System.out.println(insert.sort(list)); // sortowanie w miejscu, nie ma potrzeby kopiowania listy
-        System.out.printf("Compares: %d, swaps: %d\n\n", insert.numberOfCompares(), insert.numberOfSwaps());
-        
+        System.out.printf("Compares: %d, swaps: %d\n\n", insert.numberOfCompares(), insert.numberOfSwaps());     
     }
     
 }
